@@ -203,7 +203,7 @@ func main() {
 		}
 
 		sbPubTopic.Reset()
-		sbPubTopic.WriteString("OpenDataTelemetry/SaoRafael/HealthPack/")
+		sbPubTopic.WriteString("OpenDataTelemetry/IMT/HealthPack/")
 		sbPubTopic.WriteString(measurement)
 		sbPubTopic.WriteString("/")
 		sbPubTopic.WriteString(deviceId)
